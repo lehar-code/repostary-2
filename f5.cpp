@@ -1,6 +1,6 @@
 //file name F04//
 //project Focus 4//
-//2023-02-17//
+//2023-02-18//
 // by lehar// 
 //discription: Getting integers from the user and determining which is the lowest by calling modifyArrayValues function.//
 #include <stdio.h>
