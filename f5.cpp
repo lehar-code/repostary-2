@@ -10,17 +10,17 @@ void modifyArrayValues(int arr[], int size);
 
 int main(void)
 {
-	int array[11], f = 0, i = 0, b = 0, c = 0;//initialising variables//
+	int array[10], f = 0, i = 0, k = 0, c = 0;//initialising variables//
 	printf("Enter any 10 integers: \n");
 
 	// calling the function to modify array values//
 	modifyArrayValues(array, 10);
 
-	for (i = 0; i <= 10; i++)
+	for (i = 0; i <= 9; i++)
 	{
 		if (array[i] <= array[f])
 		{
-			b = array[i];
+			k = array[i];
 			c = i;
 			f = i;
 		}
